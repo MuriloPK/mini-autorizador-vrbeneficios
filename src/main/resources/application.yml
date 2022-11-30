@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      uri: ${MONGO_DB_URI:mongodb+srv://mini-autorizador:UiQKbE72TRt5nMTg@cluster0.khsyo1p.mongodb.net/MiniAutorizador?retryWrites=true&w=majority}
+      auto-index-creation: true
+      
+springdoc:
+  swagger-ui:
+    path: /swagger
