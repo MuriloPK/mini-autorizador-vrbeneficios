@@ -2,6 +2,8 @@ package br.com.vrbeneficios.miniautorizadorvrbeneficios.handler;
 
 import org.springframework.stereotype.Component;
 
+import br.com.vrbeneficios.miniautorizadorvrbeneficios.cartao.domain.Validacao;
+
 @Component
 public class HandleException {
 
